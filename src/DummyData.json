@@ -1,0 +1,44 @@
+{
+    "Parameter":[
+        {
+            "name":"Air Temperature",
+            "values":[
+                {"date":"2022-01-01", "value":20.1},
+                {"date":"2022-01-02", "value":20.2},
+                {"date":"2022-01-03", "value":20.3},
+                {"date":"2022-01-04", "value":20.4},
+                {"date":"2022-01-05", "value":20.5}
+            ]
+        },
+        {
+            "name":"Relative Humidity",
+            "values":[
+                {"date":"2022-01-01", "value":90.1},
+                {"date":"2022-01-02", "value":90.2},
+                {"date":"2022-01-03", "value":90.3},
+                {"date":"2022-01-04", "value":90.4},
+                {"date":"2022-01-05", "value":90.5}
+            ]
+        },
+        {
+            "name":"Wind Speed",
+            "values":[
+                {"date":"2022-01-01", "value":10.1},
+                {"date":"2022-01-02", "value":10.2},
+                {"date":"2022-01-03", "value":10.3},
+                {"date":"2022-01-04", "value":10.4},
+                {"date":"2022-01-05", "value":10.5}
+            ]
+        },
+        {
+            "name":"Wind Direction",
+            "values":[
+                {"date":"2022-01-01", "value":10.1},
+                {"date":"2022-01-02", "value":20.2},
+                {"date":"2022-01-03", "value":30.3},
+                {"date":"2022-01-04", "value":40.4},
+                {"date":"2022-01-05", "value":50.5}
+            ]
+        }
+    ]
+}
