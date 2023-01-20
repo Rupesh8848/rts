@@ -2,7 +2,6 @@ import React from "react";
 import "./Tables.styles.css";
 export default function Table({ tableNumber, data }) {
   const topLeftData = Object.keys(data)[0];
-  console.log(topLeftData);
   const dummyData = data[topLeftData];
   const [topHeader, setTopHeader] = React.useState([]);
 
@@ -16,7 +15,6 @@ export default function Table({ tableNumber, data }) {
       setTopHeader((oldData) => [...oldData, element[metaData.secondKey]]);
     });
   }, []);
-  console.log(topHeader);
   return (
     <>
       <table>
@@ -48,5 +46,5 @@ function TableHeader({ header }) {
 }
 
 function TableBody(data) {
-  return data.map((obj) => <td key={obj["value"]}>{obj["value"]}</td>);
+  return data.map((obj) => <td>{obj["value"]}</td>);
 }
