@@ -1,10 +1,9 @@
 import React from "react";
 import Table from "./Components/Table";
 import DummyData from "./DummyData.json";
-import DummyData2 from "./DummyData2.json";
-import { jsonConverter } from "./Components/ConverterFunction";
+
 function App() {
-  jsonConverter();
+  const DummyData2 = converter();
   return (
     <div className="App">
       <Table tableNumber={1} data={DummyData} />
@@ -14,3 +13,20 @@ function App() {
 }
 
 export default App;
+
+function converter() {
+  const mainKeyList = DummyData["Parameter"][0]["values"].map(
+    (element) => element.date
+  );
+  const result = mainKeyList.map((dataKey) => ({
+    date: dataKey,
+    values: DummyData["Parameter"].map((object) => {
+      return {
+        name: object.name,
+        value: object.values.filter((obj) => obj.date === dataKey)[0].value,
+      };
+    }),
+  }));
+
+  return { Time: result };
+}

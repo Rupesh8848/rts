@@ -2,6 +2,7 @@ import React from "react";
 import "./Tables.styles.css";
 export default function Table({ tableNumber, data }) {
   const topLeftData = Object.keys(data)[0];
+  console.log(topLeftData);
   const dummyData = data[topLeftData];
   const [topHeader, setTopHeader] = React.useState([]);
 

@@ -15,7 +15,7 @@
                 {"name":"Air Temperature", "value":20.2},
                 {"name":"Relative Humidity", "value":90.2},
                 {"name":"Wind Speed", "value":10.2},
-                {"name":"Wind Direction", "value":10.2}
+                {"name":"Wind Direction", "value":20.2}
             ]
         },
         {
@@ -24,7 +24,7 @@
                 {"name":"Air Temperature", "value":20.3},
                 {"name":"Relative Humidity", "value":90.3},
                 {"name":"Wind Speed", "value":10.3},
-                {"name":"Wind Direction", "value":10.3}
+                {"name":"Wind Direction", "value":30.3}
             ]
         },
         {
@@ -33,7 +33,7 @@
                 {"name":"Air Temperature", "value":20.4},
                 {"name":"Relative Humidity", "value":90.4},
                 {"name":"Wind Speed", "value":10.4},
-                {"name":"Wind Direction", "value":10.4}
+                {"name":"Wind Direction", "value":40.4}
             ]
         },
         {
@@ -42,7 +42,7 @@
                 {"name":"Air Temperature", "value":20.5},
                 {"name":"Relative Humidity", "value":90.5},
                 {"name":"Wind Speed", "value":10.5},
-                {"name":"Wind Direction", "value":10.5}
+                {"name":"Wind Direction", "value":50.5}
             ]
         }
     ]
